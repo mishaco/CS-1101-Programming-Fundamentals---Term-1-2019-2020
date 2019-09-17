@@ -9,6 +9,7 @@ Example 1:
 Do, Re, Mi
 
 Example 2
+# In this example, the arguments are expressed as values
 >>> def print_mach1():
 	print("768")
 	
@@ -18,7 +19,7 @@ Example 2
 >>> def print_mach3():
 	print("2302")
 
-# in this example, the functions are called using values	
+# When the values are called, the output presents the results as follows	
 
 >>> print_mach1()
 768
@@ -27,4 +28,26 @@ Example 2
 >>> print_mach3()
 2302
 >>> 
-# in this example, the functions are called using variables
+
+# in this example, the parameters are expressed using variables and a constant of X1
+	
+>>> def print_x1():
+	print("x1*1")
+
+	
+>>> def print_x2():
+	print("x1*2")
+
+	
+>>> def print_x3():
+	print("x1*3")
+
+# when called, the output results in the following variables
+	
+>>> print_x3()
+x1*3
+>>> print_x2()
+x1*2
+>>> print_x1()
+x1*1
+>>> 
