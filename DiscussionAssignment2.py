@@ -73,3 +73,18 @@ x1*1
 >>> print(mach1)
 768
 >>> 
+EXAMPLE 3
+# in the first part of the example, I used a local variables (inside the function) and was able to get a response from python
+>>> x=5
+>>> y=10
+>>> print(x+y)
+15
+
+# in the second part of the example, I used a local varible outside the function and received an error message. See results below
+>>> print(x)+y
+5
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    print(x)+y
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+>>> 
