@@ -110,3 +110,13 @@ NameError: name 'Misael' is not defined
 >>> 
 
 Example 5
+# in this particular example, the variable is outside the function 
+# when the program runs, the outside variable is executed separately because they are the same
+
+>>> x = "awesome"
+>>> def myfunc():
+	x = "fantastic"
+	print("Python is " + x)
+	
+>>> print("Python is " + x)
+Python is awesome
