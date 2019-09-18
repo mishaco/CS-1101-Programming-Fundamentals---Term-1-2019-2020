@@ -88,3 +88,25 @@ Traceback (most recent call last):
     print(x)+y
 TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 >>> 
+
+Example 4
+# for this example, I assigned my name as the parameter as unique_name
+
+>>> def unique_name():
+	print("Misael")
+
+	
+>>> unique_name()
+Misael
+>>>
+
+if I try to print the parameter outside of the function in the next line, I get a syntax error
+
+>>> Misael
+Traceback (most recent call last):
+  File "<pyshell#80>", line 1, in <module>
+    Misael
+NameError: name 'Misael' is not defined
+>>> 
+
+Example 5
